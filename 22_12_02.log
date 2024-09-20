@@ -1,0 +1,6 @@
+[ 2022-12-02T05:43:05+08:00 ] 45.137.97.188 /admin
+ERR: Call to undefined function mysql_escape_string()
+
+[ 2022-12-02T05:47:41+08:00 ] 45.137.97.188 /
+ERR: Call to undefined function mysql_escape_string()
+
