@@ -1,52 +1,52 @@
 <?php
-//调试信息
+//Debug information work
 ini_set("display_errors", "On");
 error_reporting(E_ALL ^ E_NOTICE);
 date_default_timezone_set('PRC');
-// 定义系统编码
+// define system encoding
 header("Content-Type: text/html;charset=utf-8");
-// 定义应用路径
+// define application path
 define('APP_PATH', './Application/');
-//定义根路径
+//define module path
 define('APP_REALPATH',dirname(__FILE__));
-// 定义缓存路径
+// Define cashe Path
 define('RUNTIME_PATH', './Runtime/');
-// 定义备份路径
+// Define backup path
 define('DATABASE_PATH', './Database/');
-// 定义钱包路径
+// Define wallet Path
 define('COIN_PATH', './Coin/');
-// 定义备份路径
+// Define backUp path
 define('UPLOAD_PATH', './Upload/');
 
 
-// 后台安全入口
+// Backend security entrace
 //define('ADMIN_KEY', 'usdz');
 
-// 定义数据库类型
+// Define database name
 define('DB_TYPE', 'mysql');
-// 定义数据库地址
+// Define Databse address
 define('DB_HOST', '127.0.0.1');
-// 定义数据库名
+// Define Database account
 define('DB_NAME', 'etuhsbsdgw2325');
-// 定义数据库账号
+// Define database Password
 define('DB_USER', 'etuhsbsdgw2325');
-// 定义数据库密码
+// Define database port
 define('DB_PWD', 'n6thnDkXfW72cmTJ');
-// 定义数据库端口
+//Define database port
 define('DB_PORT', '3306');
 
 
-// 开启演示模式
+// Turn on Demo Mode
 define('APP_DEMO',0);
-// 短信模式 0是演示模式  1是正式模式
+// sms mode is demonstartion mode 1 is format mode
 define('MOBILE_CODE',1);
-// 开始调试模式
+//start debbuing mode
 define('M_DEBUG', 1);
-//平台币
+//platfrom currencey
 define('PT_COIN', 'MBN');
-// 定义授权码
+// define authorization code
 define('MSCODE', '95D3A7E98EE9F913B462B87C73DS');
-// 定义互转APIKEY,两端必须一致
+// Define the APIKEY,for mutual conversation,both ends must be consistent
 define('BBAPIKEY', 'RkAyda9huaQYux6R');
 
 
@@ -78,9 +78,9 @@ function wherecome()
 
     return false;
 }
-//公共合约地址
+//public contract
 
-// 判断访问入口
+// Determine the access entrance
 if(wherecome()) {
 
     define('WHERECOME','Mobile');
@@ -89,6 +89,6 @@ if(wherecome()) {
     define('WHERECOME','Home');
 }
 
-// 引入入口文件
+// Introduce entry file
 require './ThinkPHP/ThinkPHP.php';
 ?>
