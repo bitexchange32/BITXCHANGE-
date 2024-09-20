@@ -1,6 +1,6 @@
 # BITXCHANGE-
 Cryptocurrency-Exchange-Platform
-# BitXCHANGE - Automated Crypto-currency trading bot
+# BITXCHANGE - Automated Crypto-currency trading bot
 > Based on technical indicators and currently supports the [bitxchange](https://www.bitpro77.com/) and [Binance](https://www.binance.com/en) exchanges
 
 ## Backtesting Demo:
