@@ -13,7 +13,7 @@ Temporary Branches for different versions:
   - Binance Exchange arbitrage bot (cloud): https://github.com/workofart/bit-trader/tree/binance-arbitrage
   - Binance Exchange bot (cloud): https://github.com/workofart/bitxchange/tree/binance-cloud
   - Bitfinex Exchange Bot (local): https://github.com/workofart/bitxchange/tree/bitxchange
-  
+
 ## Installing / Getting started
 
 1. Install all the dependencies for the *bot* and create the necessary log folder.
